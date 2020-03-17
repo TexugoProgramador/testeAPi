@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D958AB0524211EFE00E4836D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D958AB0424211EFE00E4836D /* AppDelegate.swift */; };
+		D958AB0724211EFE00E4836D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D958AB0624211EFE00E4836D /* SceneDelegate.swift */; };
+		D958AB0924211EFE00E4836D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D958AB0824211EFE00E4836D /* ViewController.swift */; };
+		D958AB0C24211EFE00E4836D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D958AB0A24211EFE00E4836D /* Main.storyboard */; };
+		D958AB0E24211F0300E4836D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D958AB0D24211F0300E4836D /* Assets.xcassets */; };
+		D958AB1124211F0300E4836D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D958AB0F24211F0300E4836D /* LaunchScreen.storyboard */; };
+		D958AB1C24211F0300E4836D /* ConsultaCepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D958AB1B24211F0300E4836D /* ConsultaCepTests.swift */; };
+		D958AB2724211F0300E4836D /* ConsultaCepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D958AB2624211F0300E4836D /* ConsultaCepUITests.swift */; };
+		D958AB3724211F2600E4836D /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D958AB3624211F2600E4836D /* API.swift */; };
+		D958AB3924211F3200E4836D /* ModelsEndereco.swift in Sources */ = {isa = PBXBuildFile; fileRef = D958AB3824211F3200E4836D /* ModelsEndereco.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D958AB1824211F0300E4836D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D958AAF924211EFE00E4836D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D958AB0024211EFE00E4836D;
+			remoteInfo = ConsultaCep;
+		};
+		D958AB2324211F0300E4836D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D958AAF924211EFE00E4836D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D958AB0024211EFE00E4836D;
+			remoteInfo = ConsultaCep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D958AB0124211EFE00E4836D /* ConsultaCep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConsultaCep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D958AB0424211EFE00E4836D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D958AB0624211EFE00E4836D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D958AB0824211EFE00E4836D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D958AB0B24211EFE00E4836D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D958AB0D24211F0300E4836D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D958AB1024211F0300E4836D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D958AB1224211F0300E4836D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D958AB1724211F0300E4836D /* ConsultaCepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsultaCepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D958AB1B24211F0300E4836D /* ConsultaCepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaCepTests.swift; sourceTree = "<group>"; };
+		D958AB1D24211F0300E4836D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D958AB2224211F0300E4836D /* ConsultaCepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConsultaCepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D958AB2624211F0300E4836D /* ConsultaCepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaCepUITests.swift; sourceTree = "<group>"; };
+		D958AB2824211F0300E4836D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D958AB3624211F2600E4836D /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		D958AB3824211F3200E4836D /* ModelsEndereco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsEndereco.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D958AAFE24211EFE00E4836D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D958AB1424211F0300E4836D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D958AB1F24211F0300E4836D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D958AAF824211EFE00E4836D = {
+			isa = PBXGroup;
+			children = (
+				D958AB0324211EFE00E4836D /* ConsultaCep */,
+				D958AB1A24211F0300E4836D /* ConsultaCepTests */,
+				D958AB2524211F0300E4836D /* ConsultaCepUITests */,
+				D958AB0224211EFE00E4836D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D958AB0224211EFE00E4836D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D958AB0124211EFE00E4836D /* ConsultaCep.app */,
+				D958AB1724211F0300E4836D /* ConsultaCepTests.xctest */,
+				D958AB2224211F0300E4836D /* ConsultaCepUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D958AB0324211EFE00E4836D /* ConsultaCep */ = {
+			isa = PBXGroup;
+			children = (
+				D958AB0424211EFE00E4836D /* AppDelegate.swift */,
+				D958AB3A24211FAF00E4836D /* Tela */,
+				D958AB3524211F1900E4836D /* Model */,
+				D958AB3424211F1400E4836D /* API */,
+				D958AB0624211EFE00E4836D /* SceneDelegate.swift */,
+				D958AB0D24211F0300E4836D /* Assets.xcassets */,
+				D958AB0F24211F0300E4836D /* LaunchScreen.storyboard */,
+				D958AB1224211F0300E4836D /* Info.plist */,
+			);
+			path = ConsultaCep;
+			sourceTree = "<group>";
+		};
+		D958AB1A24211F0300E4836D /* ConsultaCepTests */ = {
+			isa = PBXGroup;
+			children = (
+				D958AB1B24211F0300E4836D /* ConsultaCepTests.swift */,
+				D958AB1D24211F0300E4836D /* Info.plist */,
+			);
+			path = ConsultaCepTests;
+			sourceTree = "<group>";
+		};
+		D958AB2524211F0300E4836D /* ConsultaCepUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D958AB2624211F0300E4836D /* ConsultaCepUITests.swift */,
+				D958AB2824211F0300E4836D /* Info.plist */,
+			);
+			path = ConsultaCepUITests;
+			sourceTree = "<group>";
+		};
+		D958AB3424211F1400E4836D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D958AB3624211F2600E4836D /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		D958AB3524211F1900E4836D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D958AB3824211F3200E4836D /* ModelsEndereco.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D958AB3A24211FAF00E4836D /* Tela */ = {
+			isa = PBXGroup;
+			children = (
+				D958AB0824211EFE00E4836D /* ViewController.swift */,
+				D958AB0A24211EFE00E4836D /* Main.storyboard */,
+			);
+			path = Tela;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D958AB0024211EFE00E4836D /* ConsultaCep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D958AB2B24211F0300E4836D /* Build configuration list for PBXNativeTarget "ConsultaCep" */;
+			buildPhases = (
+				D958AAFD24211EFE00E4836D /* Sources */,
+				D958AAFE24211EFE00E4836D /* Frameworks */,
+				D958AAFF24211EFE00E4836D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConsultaCep;
+			productName = ConsultaCep;
+			productReference = D958AB0124211EFE00E4836D /* ConsultaCep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D958AB1624211F0300E4836D /* ConsultaCepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D958AB2E24211F0300E4836D /* Build configuration list for PBXNativeTarget "ConsultaCepTests" */;
+			buildPhases = (
+				D958AB1324211F0300E4836D /* Sources */,
+				D958AB1424211F0300E4836D /* Frameworks */,
+				D958AB1524211F0300E4836D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D958AB1924211F0300E4836D /* PBXTargetDependency */,
+			);
+			name = ConsultaCepTests;
+			productName = ConsultaCepTests;
+			productReference = D958AB1724211F0300E4836D /* ConsultaCepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D958AB2124211F0300E4836D /* ConsultaCepUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D958AB3124211F0300E4836D /* Build configuration list for PBXNativeTarget "ConsultaCepUITests" */;
+			buildPhases = (
+				D958AB1E24211F0300E4836D /* Sources */,
+				D958AB1F24211F0300E4836D /* Frameworks */,
+				D958AB2024211F0300E4836D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D958AB2424211F0300E4836D /* PBXTargetDependency */,
+			);
+			name = ConsultaCepUITests;
+			productName = ConsultaCepUITests;
+			productReference = D958AB2224211F0300E4836D /* ConsultaCepUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D958AAF924211EFE00E4836D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "humberto Lima";
+				TargetAttributes = {
+					D958AB0024211EFE00E4836D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D958AB1624211F0300E4836D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D958AB0024211EFE00E4836D;
+					};
+					D958AB2124211F0300E4836D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D958AB0024211EFE00E4836D;
+					};
+				};
+			};
+			buildConfigurationList = D958AAFC24211EFE00E4836D /* Build configuration list for PBXProject "ConsultaCep" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D958AAF824211EFE00E4836D;
+			productRefGroup = D958AB0224211EFE00E4836D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D958AB0024211EFE00E4836D /* ConsultaCep */,
+				D958AB1624211F0300E4836D /* ConsultaCepTests */,
+				D958AB2124211F0300E4836D /* ConsultaCepUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D958AAFF24211EFE00E4836D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D958AB1124211F0300E4836D /* LaunchScreen.storyboard in Resources */,
+				D958AB0E24211F0300E4836D /* Assets.xcassets in Resources */,
+				D958AB0C24211EFE00E4836D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D958AB1524211F0300E4836D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D958AB2024211F0300E4836D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D958AAFD24211EFE00E4836D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D958AB0924211EFE00E4836D /* ViewController.swift in Sources */,
+				D958AB0524211EFE00E4836D /* AppDelegate.swift in Sources */,
+				D958AB3724211F2600E4836D /* API.swift in Sources */,
+				D958AB0724211EFE00E4836D /* SceneDelegate.swift in Sources */,
+				D958AB3924211F3200E4836D /* ModelsEndereco.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D958AB1324211F0300E4836D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D958AB1C24211F0300E4836D /* ConsultaCepTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D958AB1E24211F0300E4836D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D958AB2724211F0300E4836D /* ConsultaCepUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D958AB1924211F0300E4836D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D958AB0024211EFE00E4836D /* ConsultaCep */;
+			targetProxy = D958AB1824211F0300E4836D /* PBXContainerItemProxy */;
+		};
+		D958AB2424211F0300E4836D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D958AB0024211EFE00E4836D /* ConsultaCep */;
+			targetProxy = D958AB2324211F0300E4836D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D958AB0A24211EFE00E4836D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D958AB0B24211EFE00E4836D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D958AB0F24211F0300E4836D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D958AB1024211F0300E4836D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D958AB2924211F0300E4836D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D958AB2A24211F0300E4836D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D958AB2C24211F0300E4836D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConsultaCep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.crosoften.ConsultaCep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D958AB2D24211F0300E4836D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConsultaCep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.crosoften.ConsultaCep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D958AB2F24211F0300E4836D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConsultaCepTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.crosoften.ConsultaCepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConsultaCep.app/ConsultaCep";
+			};
+			name = Debug;
+		};
+		D958AB3024211F0300E4836D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConsultaCepTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.crosoften.ConsultaCepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConsultaCep.app/ConsultaCep";
+			};
+			name = Release;
+		};
+		D958AB3224211F0300E4836D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConsultaCepUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.crosoften.ConsultaCepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConsultaCep;
+			};
+			name = Debug;
+		};
+		D958AB3324211F0300E4836D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConsultaCepUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.crosoften.ConsultaCepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConsultaCep;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D958AAFC24211EFE00E4836D /* Build configuration list for PBXProject "ConsultaCep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D958AB2924211F0300E4836D /* Debug */,
+				D958AB2A24211F0300E4836D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D958AB2B24211F0300E4836D /* Build configuration list for PBXNativeTarget "ConsultaCep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D958AB2C24211F0300E4836D /* Debug */,
+				D958AB2D24211F0300E4836D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D958AB2E24211F0300E4836D /* Build configuration list for PBXNativeTarget "ConsultaCepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D958AB2F24211F0300E4836D /* Debug */,
+				D958AB3024211F0300E4836D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D958AB3124211F0300E4836D /* Build configuration list for PBXNativeTarget "ConsultaCepUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D958AB3224211F0300E4836D /* Debug */,
+				D958AB3324211F0300E4836D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D958AAF924211EFE00E4836D /* Project object */;
+}
